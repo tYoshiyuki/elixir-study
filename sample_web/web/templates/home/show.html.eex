@@ -1,0 +1,4 @@
+<div class="jumbotron">
+  <h2>Hi! <%= @id %>!</h2>
+  <h2><%= gettext "Hello new world, from %{name}", name: "Phoenix!" %></h2>
+</div>
